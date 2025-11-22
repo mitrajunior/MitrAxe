@@ -73,6 +73,9 @@ This fork lets users specify:
 | Set chip **quantity** | ❌ Automatic only | ✅ WebUI configurable |
 | Core system, UI, tasks, drivers | ✔ Included | ✔ Inherited & extended |
 
+
+# 🖥️ User Interface Screenshots
+
 ![Init Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/initscreen2.png)
 ![Mining Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/miningscreen2.png)
 ![Portal Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/portalscreen.png)
@@ -84,7 +87,6 @@ This fork lets users specify:
 
 
 
----
 
-# 📂 Project Structure Overview
+# 📂 Comming Soon.
 
