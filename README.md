@@ -51,9 +51,10 @@ No firmware recompilation required.
 
 ---
 
-## 🟦 3. Manual Configuration of Chip **Quantity** via WebUI
+## 🟦 3. Manual Configuration of Chip **Type/Quantity** via WebUI
 This fork lets users specify:
 
+- The **Type** being used
 - The **number of chips** being used  
 - Set and change the amount through WebUI  
 - Store the configuration in NVS  
