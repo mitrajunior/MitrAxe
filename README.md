@@ -8,7 +8,7 @@ This fork does **not** replace the original NerdAxe — it builds upon it, addin
 ## 📌 Official NerdAxe Repository
 The original and official project can be found here:
 
-👉 **https://github.com/netdex/nerdaxe**
+👉 **https://github.com/BitMaker-hub/NerdAxe**
 
 All base functionality, project architecture, and design belong to the NerdAxe team.
 
