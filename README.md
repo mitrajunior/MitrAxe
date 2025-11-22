@@ -67,12 +67,13 @@ This fork lets users specify:
 | Set chip **quantity** | ❌ Automatic only | ✅ WebUI configurable |
 | Core system, UI, tasks, drivers | ✔ Included | ✔ Inherited & extended |
 
-https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/initscreen2.png
-https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/miningscreen2.png
-https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/portalscreen.png
-https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/settingsscreen.png
-https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/splashscreen2.png
-https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/default_dark.png
+![Init Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/initscreen2.png)
+![Mining Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/miningscreen2.png)
+![Portal Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/portalscreen.png)
+![Settings Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/settingsscreen.png)
+![Splash Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/splashscreen2.png)
+![Donations QR](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/default_dark.png)
+
 
 
 ---
