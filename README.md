@@ -88,5 +88,5 @@ This fork lets users specify:
 
 
 
-# 📂 Comming Soon.
+# 📂 Coming Soon.
 
