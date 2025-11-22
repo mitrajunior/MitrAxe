@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Demo/default_dark.png" width="600">
+</p>
+
+
 # Mitr4xe — Custom NerdAxe Build
 
 **Mitr4xe** is a customized fork of the official **NerdAxe** project, designed to expand configuration flexibility directly through the WebUI.  
