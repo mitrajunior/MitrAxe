@@ -78,8 +78,8 @@ This fork lets users specify:
 ![Settings Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/settingsscreen.png)
 ![Splash Screen](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/splashscreen2.png)
 
+![WebUI](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/Screenshot_20251122-213346.png)
 ![WebUI](https://raw.githubusercontent.com/mitrajunior/MitrAxe/main/Demo/Screenshot_20251122-213346 (1).png)
-
 
 
 
