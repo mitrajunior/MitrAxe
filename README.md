@@ -25,53 +25,92 @@ These are the **exclusive enhancements** provided by the Mitr4xe fork — featur
 
 ---
 
-## 🟦 1. Board Model Selection via WebUI
-Mitr4xe introduces a configurable system that allows users to:
+🟦 1. Board Model Selection via WebUI
 
-- Select the **board model** directly from the WebUI  
-- Store the selected board in NVS permanently  
-- Dynamically adjust firmware behavior based on the chosen board  
+Mitr4xe allows the user to:
 
-💡 *In the official NerdAxe, board selection is compile-time only.*
+Select the board model directly through the WebUI
 
----
+Store the selected model persistently in NVS
 
-## 🟦 2. Static IP Configuration via WebUI
-Mitr4xe includes fully dynamic network configuration:
+Automatically adjust firmware behavior based on the chosen board
 
-- Set a **static IP address**
-- Define **subnet mask**
-- Define **gateway**
-- Configure **DNS**
-- All configurable directly through the WebUI
+💡 In the official NerdAxe, board selection is only possible at compile time.
 
-No firmware recompilation required.
+🟦 2. Static IP Configuration via WebUI
 
-💡 *The official NerdAxe does not provide advanced network configuration via WebUI.*
+(Added because this feature does not exist in the official NerdAxe)
 
----
+Full network configuration is now available directly in the WebUI:
 
-## 🟦 3. Manual Configuration of Chip **Type/Quantity** via WebUI
-This fork lets users specify:
+Set a static IP address
 
-- The **Type** being used
-- The **number of chips** being used  
-- Set and change the amount through WebUI  
-- Store the configuration in NVS  
-- Dynamically affect hardware logic, system tasks, and UI  
+Subnet mask
 
-💡 *NerdAxe performs automatic chip handling only; it does not allow manual quantity selection.*
+Gateway
 
----
+DNS
 
-# 🔍 Summary of Differences (NerdAxe vs. Mitr4xe)
+All settings are saved in NVS and applied immediately — no recompilation required
 
-| Feature | NerdAxe (Official) | Mitr4xe (This Fork) |
-|--------|----------------------|---------------------|
-| Select board model | ❌ Compile-time only | ✅ WebUI selectable |
-| Configure static IP | ❌ Not available | ✅ WebUI configurable |
-| Set chip **quantity** | ❌ Automatic only | ✅ WebUI configurable |
-| Core system, UI, tasks, drivers | ✔ Included | ✔ Inherited & extended |
+💡 The official NerdAxe does not support static IP configuration via WebUI.
+
+🟦 3. Manual Chip Type & Quantity Configuration
+
+This fork allows users to:
+
+Manually define the chip type
+
+Choose the number of chips being used
+
+Save and update both values in NVS
+
+Dynamically adjust hardware logic, system tasks, and UI based on the selected quantity
+
+💡 The official NerdAxe performs automatic detection only and does not allow manual configuration.
+
+🟦 4. Improved Wi-Fi Auto-Reconnect System
+
+New and enhanced Wi-Fi reconnection logic:
+
+Much more stable automatic reconnection
+
+Safe reentry into the boot flow
+
+Better detection of network loss
+
+More consistent behavior when switching between manual Wi-Fi / AP mode / SmartConfig
+
+💡 More robust than the default reconnection system used in the official NerdAxe.
+
+🟦 5. Enhanced Boot Behavior
+
+The boot process has been reworked to match all new features introduced in this fork:
+
+Boot is now optimized by taking into account:
+
+The selected board model
+
+The configured chip type and quantity
+
+The active network mode and IP configuration
+
+This results in:
+
+A more predictable and organized initialization process
+
+Fixes to flows that previously could behave inconsistently after changes made through the WebUI
+
+💡 These improvements make Mitr4xe more dynamic than the original NerdAxe, which relies on fixed compile-time configurations.
+
+🔍 Summary of Differences (NerdAxe vs. Mitr4xe)
+Feature	NerdAxe (Official)	Mitr4xe (This Fork)
+Select board model	❌ Compile-time only	✅ WebUI selectable
+Configure static IP	❌ Not available	✅ WebUI configurable
+Manual chip type/quantity setup	❌ Not available	✅ WebUI configurable
+Wi-Fi auto-reconnect	🔸 Basic	✅ Advanced reconnect system
+Boot behavior	🔸 Default	✅ Adjusted & optimized
+Core system, UI, tasks, drivers	✔ Included	✔ Inherited & extended
 
 
 # 🖥️ User Interface Screenshots
