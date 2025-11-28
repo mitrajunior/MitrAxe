@@ -126,4 +126,5 @@ This results in:
 
 
 # 📂 Coming Soon.
+[![Install Firmware](https://img.shields.io/badge/Install-Firmware-blue?style=for-the-badge)](https://myupdater-server.duckdns.org:8002/install)
 
